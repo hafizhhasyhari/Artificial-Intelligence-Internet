@@ -1,31 +1,68 @@
-# Artificial-Intelligence-Internet
+<div align="center">
 
-### 👋 Halo! Selamat Datang.
-Saya Hafizh Hilman Asyhari, seorang mahasiswa dari Indonesia yang sedang mengeksplorasi persimpangan antara teknologi, data, dan kelautan.
+![Banner Proyek AI Maritim](LINK_KE_FILE_GAMBAR_BANNER_ANDA.png)
 
-Saya percaya AI dan Web dapat membantu kita memahami dan melindungi warisan maritim kita yang kaya.
+# 🌊 AI-Internet: Ekosistem & Budaya Maritim
+
+**Jurnal pembelajaran 16 minggu untuk mata kuliah "Artificial-Intelligence-Internet" dengan fokus pada Data, Ekosistem, dan Budaya Maritim Indonesia.**
+
+</div>
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Status](https://img.shields.io/badge/Status-Sedang_Berlangsung-success.svg)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+</div>
+
+## 🎯 Tentang Repositori Ini
+
+Repositori ini adalah jurnal pembelajaran lengkap saya untuk mata kuliah **Artificial-Intelligence-Internet**. Alih-alih studi kasus umum, saya mendedikasikan proyek ini untuk mengeksplorasi bagaimana **AI dan Web** dapat digunakan untuk menganalisis, memvisualisasikan, dan melestarikan **Ekosistem & Budaya Maritim Indonesia**.
+
+[🌊 Lihat Proyek Akhir (WIP)](#-proyek-akhir-wip) • [📚 Lihat Materi Lengkap](#-struktur-pembelajaran-16-minggu) • [🚀 Cara Menjalankan](#-quick-start)
 
 ---
 
-#### 🌱 Yang Sedang Saya Pelajari Saat Ini:
-Saat ini, saya sedang fokus pada mata kuliah **"Artificial-Intelligence-Internet"** dengan studi kasus Ekosistem & Budaya Maritim Indonesia. Saya mendokumentasikan seluruh perjalanan belajar 16 minggu saya di repositori ini:
+## 🚀 Quick Start
 
-* **🌊 [Proyek Utama: AI & Ekosistem Maritim (Klik di sini!)](LINK_KE_REPOSITORI_PROYEK_ANDA)**
+Panduan ini untuk menjalankan kode-kode praktikum dan latihan di dalam repositori ini.
 
-#### 🎯 Minat Utama:
+### Prasyarat
 
-* Analisis Data Ekologi (Kesehatan Terumbu Karang)
-* Visualisasi Data GIS (Pemetaan Web)
-* AI untuk Arsip Sejarah & Budaya Bahari
+* Python 3.9+
+* Anaconda atau `pip` package manager
 
-#### 💻 Tools yang Saya Gunakan:
+### Instalasi
 
-* Python
-* Jupyter Notebook
-* Pandas & Matplotlib
-* Scikit-Learn
+1.  **Clone repositori ini**
+    ```bash
+    git clone [https://github.com/](https://github.com/)[Username-Anda]/[Nama-Repo-Anda].git
+    cd [Nama-Repo-Anda]
+    ```
+
+2.  **Buat virtual environment (direkomendasikan)**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # Di Windows: venv\Scripts\activate
+    ```
+
+3.  **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Jalankan Jupyter Notebook**
+    ```bash
+    jupyter notebook
+    ```
+    Lalu, navigasi ke folder `Minggu-XX` yang ingin Anda lihat.
 
 ---
 
-📫 **Mari terhubung:**
-* https://mez.ink/hafizhhasyhari 
+## 🗂️ Struktur Repositori
+
+Struktur file ini dirancang untuk mendokumentasikan setiap komponen pembelajaran per minggu.
