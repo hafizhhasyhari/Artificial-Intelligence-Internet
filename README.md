@@ -70,41 +70,202 @@ Struktur file ini dirancang untuk mendokumentasikan setiap komponen pembelajaran
 ---
 
 ''' bash
-AI-Internet-Maritim/ 
-│ 
-├── README.md # Halaman yang sedang Anda baca 
-├── requirements.txt # Daftar library Python yang dibutuhkan 
-├── LICENSE # Lisensi MIT │ ├── Minggu-01_Fondasi_Data/ 
-│   ├── README.md # Rangkuman mingguan (seperti ini) 
-│   ├── materi.md # Catatan teori & konsep 
-│   ├── praktik.ipynb # Notebook Latihan terpandu (Lab) 
-│   ├── latihan_mandiri.ipynb # Notebook Tugas mandiri 
-│   ├── pameran/ # Folder hasil visual (plot, gambar) 
-│   ├── penelitian.md # Tinjauan paper/artikel akademis 
-│   ├── pengabdian.md # Ide aplikasi untuk masyarakat 
-│   ├── karya_seni_ip.md # Karya seni/data art (potensi HAKI) 
-│   └── naskah/ # Kumpulan ide naskah film 
-│ ├── Minggu-02_Pemetaan_Web/ 
-│   ├── (struktur yang sama...) 
-│ ├── Minggu-03_AI_Klasifikasi/ │   
-├── (struktur yang sama...) │ 
-├── ( ... ) 
-│ ├── Minggu-16_Final_UAS/ 
-│   ├── (struktur yang sama...) 
-│ ├── 💡_PROYEK_AKHIR/ 
-│   ├── README.md # Penjelasan detail proyek akhir 
-│   ├── app.py # Aplikasi web (Streamlit/Flask) 
-│   ├── notebooks/ # Notebook untuk eksperimen 
-│   ├── models/ # File model AI yang sudah dilatih (.pkl) 
-│   └── data/ # Dataset yang digunakan 
-│ ├── 📑_referensi/ 
-│   ├── papers/ # Kumpulan PDF paper penelitian 
-│   └── links.md # Kumpulan link & sumber daya 
-│ └── 🖼️_media/    
-├── banner.png # File gambar untuk README    
-└── screenshots/ # Screenshot aplikasi/hasil
+│
+├── README.md                 # Halaman yang sedang Anda baca
+├── requirements.txt            # Daftar library Python yang dibutuhkan
+├── LICENSE                     # Lisensi MIT
+│
+├── Minggu-01_Fondasi_Data/
+│   ├── README.md               # Rangkuman mingguan
+│   ├── materi.md               # Catatan teori & konsep
+│   ├── praktik.ipynb           # Notebook Latihan terpandu (Lab)
+│   ├── latihan_mandiri.ipynb   # Notebook Tugas mandiri
+│   ├── pameran/                # Folder hasil visual (plot, gambar)
+│   ├── penelitian.md           # Tinjauan paper/artikel akademis
+│   ├── pengabdian.md           # Ide aplikasi untuk masyarakat
+│   ├── karya_seni_ip.md        # Karya seni/data art (potensi HAKI)
+│   └── naskah/                 # Kumpulan ide naskah film
+│
+├── Minggu-02_Pemetaan_Web_GIS/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-03_AI_Klasifikasi_ML/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-04_Data_Spasial_Analisis/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-05_AI_Visi_Komputer_Ekosistem/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-06_AI_Generatif_Budaya/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-07_AI_NLP_Arsip_Sejarah/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-08_UTS_Integrasi_Dasbor/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-09_AI_Agents_Simulasi/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-10_Visualisasi_3D_Data/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-11_IoT_Data_Realtime/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-12_WebAR_Edukasi_Imersif/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-13_Optimasi_Big_Data/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-14_Etika_AI_Konservasi/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-15_Kerja_Proyek_Akhir/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── Minggu-16_Final_UAS_Pameran/
+│   ├── README.md
+│   ├── materi.md
+│   ├── praktik.ipynb
+│   ├── latihan_mandiri.ipynb
+│   ├── pameran/
+│   ├── penelitian.md
+│   ├── pengabdian.md
+│   ├── karya_seni_ip.md
+│   └── naskah/
+│
+├── 💡_PROYEK_AKHIR/
+│   ├── README.md               # Penjelasan detail proyek akhir
+│   ├── app.py                  # Aplikasi web (Streamlit/Flask)
+│   ├── notebooks/              # Notebook untuk eksperimen
+│   ├── models/                 # File model AI yang sudah dilatih (.pkl)
+│   └── data/                   # Dataset yang digunakan
+│
+├── 📑_referensi/
+│   ├── papers/                 # Kumpulan PDF paper penelitian
+│   └── links.md                # Kumpulan link & sumber daya
+│
+└── 🖼️_media/
+    ├── banner.png              # File gambar untuk README
+    └── screenshots/            # Screenshot aplikasi/hasil
 '''
-
 ---
 
 ## 📚 Struktur Pembelajaran 16 Minggu
