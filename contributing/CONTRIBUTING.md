@@ -24,7 +24,7 @@ Cara standar untuk berkontribusi melalui GitHub adalah sebagai berikut:
 1.  **Fork** repositori ini ke akun Anda.
 2.  **Clone** *fork* Anda ke komputer lokal:
     ```bash
-    git clone [https://github.com/](https://github.com/)[Username-Anda]/Maritime-Artificial-Intelligence-Internet.git
+    git clone [https://github.com/](https://github.com/)hafizhhasyhari/Maritime-Artificial-Intelligence-Internet.git
     ```
 3.  Buat **Branch Baru** untuk perubahan Anda:
     ```bash
