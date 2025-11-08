@@ -66,3 +66,73 @@ Panduan ini untuk menjalankan kode-kode praktikum dan latihan di dalam repositor
 ## 🗂️ Struktur Repositori
 
 Struktur file ini dirancang untuk mendokumentasikan setiap komponen pembelajaran per minggu.
+
+AI-Internet-Maritim/ 
+│ 
+├── README.md # Halaman yang sedang Anda baca 
+├── requirements.txt # Daftar library Python yang dibutuhkan 
+├── LICENSE # Lisensi MIT │ ├── Minggu-01_Fondasi_Data/ 
+│   ├── README.md # Rangkuman mingguan (seperti ini) 
+│   ├── materi.md # Catatan teori & konsep 
+│   ├── praktik.ipynb # Notebook Latihan terpandu (Lab) 
+│   ├── latihan_mandiri.ipynb # Notebook Tugas mandiri 
+│   ├── pameran/ # Folder hasil visual (plot, gambar) 
+│   ├── penelitian.md # Tinjauan paper/artikel akademis 
+│   ├── pengabdian.md # Ide aplikasi untuk masyarakat 
+│   ├── karya_seni_ip.md # Karya seni/data art (potensi HAKI) 
+│   └── naskah/ # Kumpulan ide naskah film 
+│ ├── Minggu-02_Pemetaan_Web/ 
+│   ├── (struktur yang sama...) 
+│ ├── Minggu-03_AI_Klasifikasi/ │   
+├── (struktur yang sama...) │ 
+├── ( ... ) 
+│ ├── Minggu-16_Final_UAS/ 
+│   ├── (struktur yang sama...) 
+│ ├── 💡_PROYEK_AKHIR/ 
+│   ├── README.md # Penjelasan detail proyek akhir 
+│   ├── app.py # Aplikasi web (Streamlit/Flask) 
+│   ├── notebooks/ # Notebook untuk eksperimen 
+│   ├── models/ # File model AI yang sudah dilatih (.pkl) 
+│   └── data/ # Dataset yang digunakan 
+│ ├── 📑_referensi/ 
+│   ├── papers/ # Kumpulan PDF paper penelitian 
+│   └── links.md # Kumpulan link & sumber daya 
+│ └── 🖼️_media/    
+├── banner.png # File gambar untuk README    
+└── screenshots/ # Screenshot aplikasi/hasil
+
+---
+
+## 📚 Struktur Pembelajaran 16 Minggu
+
+Setiap folder `Minggu-XX` berisi 9 komponen inti:
+
+1.  **Materi:** Catatan dan rangkuman teori.
+2.  **Praktik:** Laporan praktikum terpandu (Lab).
+3.  **Latihan Mandiri:** Solusi untuk tugas mandiri.
+4.  **Pameran:** Hasil visual (plot, grafik, peta) dari latihan.
+5.  **Project:** Kontribusi bertahap untuk proyek akhir.
+6.  **Penelitian:** Tinjauan akademis/teoritis terkait topik.
+7.  **Pengabdian Masyarakat:** Ide atau aplikasi topik untuk kepentingan sosial.
+8.  **Karya Seni / IP:** Aset unik (Data Art, Naskah) dengan potensi HAKI.
+9.  **Naskah:** Ide naskah film pendek (Personal, Multidisiplin, Budaya).
+
+---
+
+### 💡 Proyek Akhir (WIP): [Judul Proyek Akhir Anda]
+
+* **Deskripsi:** [Jelaskan 1-2 paragraf tentang proyek akhir Anda di sini. Misal: "Sebuah dasbor web interaktif untuk memprediksi pemutihan terumbu karang menggunakan data suhu permukaan laut (SST) dan model AI..."]
+* **Teknologi:** [Python, Streamlit, Scikit-learn, Leaflet.js, dll.]
+* **Status:** [Masih dalam tahap pengumpulan data / Pengembangan Model / Finalisasi.]
+
+---
+
+## 👨‍💻 Kontributor & Kontak
+
+* **Nama:** Hafizh Hilman Asyhari
+* **GitHub:** [@HafizhHasyhari](https://github.com/HafizhHasyhari)
+* **Portofolio/Kontak Lain:** [mez.ink/hafizhhasyhari](https://mez.ink/hafizhhasyhari)
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah Lisensi MIT. Lihat file `LICENSE` untuk detailnya.
