@@ -1,0 +1,54 @@
+# =================================================================
+# == Persyaratan Python untuk Proyek AI-Internet Maritim ==
+# =================================================================
+#
+# Gunakan file ini untuk menginstal semua dependensi:
+# pip install -r requirements.txt
+#
+# -----------------------------------------------------------------
+
+# == Inti Analisis Data (Minggu 1-3) ==
+# Untuk analisis data, manipulasi tabel, dan plotting dasar
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+openpyxl==3.1.2          # Diperlukan oleh Pandas untuk membaca file .xlsx
+
+# == Lingkungan Notebook (Praktik Harian) ==
+# Untuk menjalankan file .ipynb (Praktik & Latihan Mandiri)
+notebook==7.1.3
+jupyterlab==4.1.8        # Opsional, jika Anda lebih suka antarmuka Lab
+
+# == Machine Learning (Umum) (Minggu 3, 5) ==
+# Untuk model klasifikasi, regresi, clustering
+scikit-learn==1.4.2
+
+# == Geospasial (GIS) & Pemetaan (Fokus Maritim - Minggu 2, 4) ==
+# Untuk memproses data peta, shapefile, dan membuat peta web
+geopandas==0.14.3
+folium==0.16.0           # Untuk membuat peta web interaktif (Leaflet.js)
+shapely==2.0.4           # Dependensi inti untuk geopandas
+
+# == Web, API, & Dasbor (Minggu 8, 11) ==
+# Untuk mengambil data dari API dan membangun dasbor web
+requests==2.31.0         # Untuk memanggil API (cuaca, data IoT)
+streamlit==1.34.0        # Pilihan populer untuk membuat dasbor data
+# flask==3.0.3           # Opsional, jika ingin membangun API sendiri
+plotly==5.21.0           # Untuk plot web interaktif (3D & 2D)
+
+# == AI Lanjutan: Visi Komputer (CV) (Minggu 5) ==
+# Untuk menganalisis gambar (kesehatan terumbu karang)
+tensorflow==2.16.1       # Library Deep Learning utama
+opencv-python==4.9.0.80  # Untuk pemrosesan gambar dasar
+Pillow==10.3.0           # Untuk manipulasi gambar
+
+# == AI Lanjutan: Natural Language Processing (NLP) (Minggu 7) ==
+# Untuk menganalisis arsip sejarah & folklor
+nltk==3.8.1              # Toolkit klasik untuk analisis teks
+gensim==4.3.2            # Untuk Topic Modeling (analisis arsip)
+# spacy==3.7.4           # Opsional, library NLP modern
+
+# == Database (Minggu 13) ==
+# Untuk menghubungkan Python ke database PostGIS/PostgreSQL
+psycopg2-binary==2.9.9
